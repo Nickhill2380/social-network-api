@@ -13,7 +13,9 @@ const UserSchema = new Schema(
             unique: true,
             required: true,
             validate: {
-                validator: () => Promise.resolve(false),
+                validator: function(email) {
+                    return /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/.test(email);
+                }, 
                 message:'Invalid email!'
             }
 
