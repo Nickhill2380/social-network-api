@@ -19,7 +19,7 @@ This application requires mongodb as well as express and mongoose.
 To start the application type node server.js in the command line. There is no front end so you would have to use application like insomnia core to run the routes. Please see image and video below.
 
 ![image](https://user-images.githubusercontent.com/71850826/109835421-32975980-7c11-11eb-9de1-b0271c66cc68.png)
-![demo](https://drive.google.com/file/d/1Wo7dHSvbaKklPMmhOgoIEYrFoRGcBhOe/preview)
+![demo][https://drive.google.com/file/d/1Wo7dHSvbaKklPMmhOgoIEYrFoRGcBhOe/preview]
 
 
 ## Questions
